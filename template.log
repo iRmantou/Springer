@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2016.8.8)  14 SEP 2016 17:22
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2016.8.8)  29 NOV 2016 16:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -222,12 +222,15 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Underfull \vbox (badness 4096) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [1{d:/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
 
 ]
+
+LaTeX Warning: Reference `sec:1' on page 2 undefined on input line 127.
+
 Package epstopdf Info: Source file: <example.eps>
 (epstopdf)                    date: 2016-08-22 09:54:48
 (epstopdf)                    size: 286 bytes
@@ -236,14 +239,13 @@ Package epstopdf Info: Source file: <example.eps>
 (epstopdf)                    size: 2431 bytes
 (epstopdf)             Command: <repstopdf --outfile=example-eps-converted-to.p
 df example.eps>
-(epstopdf)             \includegraphics on input line 137.
+(epstopdf)             \includegraphics on input line 138.
 Package epstopdf Info: Output file is already uptodate.
-
 <example-eps-converted-to.pdf, id=12, 202.7575pt x 202.7575pt>
 File: example-eps-converted-to.pdf Graphic file (type pdf)
 
 <use example-eps-converted-to.pdf>
-Package pdftex.def Info: example-eps-converted-to.pdf used on input line 137.
+Package pdftex.def Info: example-eps-converted-to.pdf used on input line 138.
 (pdftex.def)             Requested size: 202.757pt x 202.757pt.
 Package epstopdf Info: Source file: <example.eps>
 (epstopdf)                    date: 2016-08-22 09:54:48
@@ -253,33 +255,36 @@ Package epstopdf Info: Source file: <example.eps>
 (epstopdf)                    size: 2431 bytes
 (epstopdf)             Command: <repstopdf --outfile=example-eps-converted-to.p
 df example.eps>
-(epstopdf)             \includegraphics on input line 147.
+(epstopdf)             \includegraphics on input line 148.
 Package epstopdf Info: Output file is already uptodate.
 File: example-eps-converted-to.pdf Graphic file (type pdf)
  <use example-eps-converted-to.pdf>
-Package pdftex.def Info: example-eps-converted-to.pdf used on input line 147.
+Package pdftex.def Info: example-eps-converted-to.pdf used on input line 148.
 (pdftex.def)             Requested size: 371.25pt x 371.26225pt.
- [2 <./example-eps-converted-to.pdf>] [3] (./template.aux) ) 
+ [2 <./example-eps-converted-to.pdf>] [3] (./template.aux)
+
+LaTeX Warning: There were undefined references.
+
+ ) 
 Here is how much of TeX's memory you used:
- 2211 strings out of 493013
- 33068 string characters out of 6136994
- 93922 words of memory out of 5000000
- 5747 multiletter control sequences out of 15000+600000
+ 2209 strings out of 493013
+ 33054 string characters out of 6136994
+ 93895 words of memory out of 5000000
+ 5745 multiletter control sequences out of 15000+600000
  11058 words of font info for 38 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 40i,7n,33p,1120b,222s stack positions out of 5000i,500n,10000p,200000b,80000s
-<d:/texlive/2016/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmbsy10.pfb><d:/texlive/2016/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmbx10.pfb><d:/texlive/2016/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmbx12.pfb><d:/texlive/2016/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmbx8.pfb><d:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmbxti10.pfb><d:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmm
-i10.pfb><d:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><d
-:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><d:/texlive/2
-016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><d:/texlive/2016/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmti10.pfb><d:/texlive/2016/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmti8.pfb>
-Output written on template.pdf (3 pages, 133433 bytes).
+ 40i,7n,33p,1161b,222s stack positions out of 5000i,500n,10000p,200000b,80000s
+<d:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbsy10.pfb><d:/te
+xlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><d:/texlive/201
+6/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><d:/texlive/2016/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmbx8.pfb><d:/texlive/2016/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmbxti10.pfb><d:/texlive/2016/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmmi10.pfb><d:/texlive/2016/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmr10.pfb><d:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mr7.pfb><d:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><d:
+/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb><d:/texlive/
+2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb>
+Output written on template.pdf (3 pages, 132947 bytes).
 PDF statistics:
  61 PDF objects out of 1000 (max. 8388607)
  43 compressed objects within 1 object stream
